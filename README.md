@@ -1,39 +1,34 @@
-# Cookiecuter Personal Platzi
+# Cookiecuter Simple Data Science Notes for Data Science
 
-<!-- badges: start -->
-[![@jvelzmagic](https://img.shields.io/badge/@jvelezmagic-Sitio_personal-blue?&logoColor=white)](https://jvelezmagic.com/) 
-[![Platzi](https://img.shields.io/badge/Curso_Platzi-Configuración_Avanzada_...-green&logoColor=white)](https://platzi.com/datos/)
-<!-- badges: end -->
+This is my personal template for taking notes of online classes.
 
-Aprende a crear tu propia plantilla personalizada utilizando cookiecutter.
+## Requirements
 
-## Requiremientos
-
-- [Anaconda](https://www.anaconda.com/download/) >= 4.x
-- [git](https://git-scm.com/) >= 2.x
-- [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html) >= 1.4.0:
-    Esto puede ser instalado con `pip` o `conda` dependiendo cómo tú manejas tus paquetes de Python:
+- [Anaconda](https://www.anaconda.com/download/)
+- [git](https://git-scm.com/)
+- [Cookiecutter Python package](http://cookiecutter.readthedocs.org/en/latest/installation.html)
+- [VSCode](https://code.visualstudio.com/)
 
 ``` bash
 pip install cookiecutter
 ```
 
-o
+or
 
 ``` bash
 conda install -c conda-forge cookiecutter
 ```
 
-## Crear un nuevo proyecto
+## Create new project
 
-En el directorio en el que quieras guardar tu proyecto generado:
+In the folder you want to create a new project, run
 
 ```bash
-cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cookiecutter-personal-platzi
+cookiecutter https://github.com/rodoart/cookiecutter-notes-data-science
 ```
 
 
-## Estructura de directorios y archivos resultantes
+## File structure
 
     {{ cookiecutter.project_slug }}
         ├── data
@@ -51,4 +46,7 @@ cookiecutter https://github.com/platzi/curso-entorno-avanzado-ds --checkout cook
         └── README.md          <- The top-level README for developers using this project.
 
 ---
-Proyecto creado con fines demostrativos para el curso "[Configuración avanzada...]()" de [Platzi](https://platzi.com/) por [@jvelezmagic](https://twitter.com/jvelezmagic).
+
+## Credits
+
+This project was forked from [jvelezmagic](https://github.com/jvelezmagic).
