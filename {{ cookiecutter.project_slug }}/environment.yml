@@ -14,6 +14,7 @@ dependencies:
   - pip
   {% if cookiecutter.project_packages == "All" -%}
   - pyprojroot
+  - pywin32
   {% endif -%}
   - python={{ cookiecutter.python_version }}
   - pip:

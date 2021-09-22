@@ -8,6 +8,14 @@ CURRENT_DIR = pathlib.Path(".").resolve()
 MESSAGE_COLOR = "\x1b[34m"
 RESET_ALL = "\x1b[0m"
 
+
+print(f"Creating .gitignore file...{RESET_ALL}")
+
+file_object = open('.gitignore', 'a')
+file_object.write('\n/figures/')
+file_object.write('\n/data/')
+file_object.write('\n*.code-workspace')
+
 print(f"Creating virtual enviroment...{RESET_ALL}")
 
 enviro_path = CURRENT_DIR.joinpath("environment.yml")
