@@ -6,5 +6,6 @@
     "project_description": "A short description of the project.",
     "project_packages": ["All", "Minimal"],
     "python_version": "3.9.6",
-    "project_version": "0.1.0"
+    "project_version": "0.1.0",
+    "generate_virtual_enviroment": "n"
 }
