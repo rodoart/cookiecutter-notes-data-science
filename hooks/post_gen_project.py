@@ -14,7 +14,7 @@ GENERATE_VIRTUAL_ENVIROMENT = "{{ cookiecutter.generate_virtual_enviroment }}"
 print(f"Creating .gitignore file...{RESET_ALL}")
 
 file_object = open('.gitignore', 'a')
-file_object.write('\n/pictures/')
+file_object.write('\n/figures/')
 file_object.write('\n/data/')
 file_object.write('\n*.code-workspace')
 
