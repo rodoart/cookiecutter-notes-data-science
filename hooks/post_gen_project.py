@@ -20,7 +20,7 @@ file_object.write('\n*.code-workspace')
 
 print(f"Creating virtual enviroment...{RESET_ALL}")
 
-enviro_path = CURRENT_DIR.joinpath("python", "environment.yml")
+enviro_path = CURRENT_DIR.joinpath("environment.yml")
 print(f'"{enviro_path}"')
 
 
